@@ -2,7 +2,7 @@ module Memorable
   def self.reset_all
     self.all.clear
   end
-
+end
   def self.count
     self.all.count
   end
@@ -12,5 +12,4 @@ module InstanceMethods
       self.class.all << self
     end
   end
-end
 end
