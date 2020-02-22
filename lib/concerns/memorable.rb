@@ -13,4 +13,3 @@ module InstanceMethods
       self.class.all << self
     end
   end
-end
